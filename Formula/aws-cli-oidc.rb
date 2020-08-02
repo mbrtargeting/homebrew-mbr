@@ -9,5 +9,6 @@ class AwsCliOidc < Formula
   def install
     system "make", "build"
     bin.install "bin/aws-cli-oidc"
+    bin.install "bin/aws-sign-in"
   end
 end
